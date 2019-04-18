@@ -6,5 +6,6 @@ function doGet(e) {
 
 function doPost(e) {
   processData(e.parameter);
+  processImage(e);
   return "Posted it";
 }
